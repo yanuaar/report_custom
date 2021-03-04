@@ -1,0 +1,11 @@
+<odoo>
+    <report 
+        id="inv_wan2try_report" 
+        model="account.move" 
+        string="Invoice - Wan2Try" 
+        name="report_custom.inv_report_wan2try"
+        file="report_custom.inv_report_wan2try"  
+        report_type="qweb-html" 
+        print_report_name="('Wan2try_' + (object.name or '').replace(' ','_'))"
+        paperformat="base.paperformat_euro" />
+</odoo>

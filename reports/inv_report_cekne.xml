@@ -1,0 +1,10 @@
+<odoo>
+    <report 
+        id="inv_cekne_report" 
+        model="account.move" 
+        string="Invoice - Cekne" 
+        name="report_custom.inv_report_cekne" 
+        report_type="qweb-html" 
+        print_report_name="('Cekne' + (object.name or '').replace(' ','_'))"
+        paperformat="base.paperformat_euro" />
+</odoo>
