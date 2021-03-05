@@ -12,7 +12,5 @@
         "reports/inv_report_cekne.xml",
         "reports/inv_report_cekne_document.xml",
         "reports/inv_report_inherit.xml",
-        "reports/report_coba.xml",
-        "reports/report_coba_document.xml",
     ],
 }
