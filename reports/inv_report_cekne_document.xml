@@ -19,6 +19,7 @@
                             <div class="col-8">
                                 <!-- <img class="img img-responsive" src="/report_custom/static/src/img/wan2.png" width="100" height="100"/> -->
                                 <img src="/report_custom_wan2try/static/src/img/logo.png" width="100" height="100"/>
+                                <img src="/report_custom/static/src/img/logo.png" width="100" height="100"/>
                                 <!-- <img t-if="res_company.logo" t-att-src="'data:image/png;base64,%s' % res_company.logo" style="height: 75px; margin-bottom: 5px;"/> -->
                             </div>
                         </div>

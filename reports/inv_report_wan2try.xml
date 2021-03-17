@@ -3,8 +3,13 @@
         id="inv_wan2try_report" 
         model="account.move" 
         string="Invoice - Wan2Try" 
+<<<<<<< HEAD
         name="report_custom_wan2try.inv_report_wan2try"
         file="report_custom_wan2try.inv_report_wan2try"  
+=======
+        name="report_custom.inv_report_wan2try"
+        file="report_custom.inv_report_wan2try"  
+>>>>>>> 7d881b96b5c97444867ec6f3c5b6aecb33b9f747
         report_type="qweb-pdf" 
         print_report_name="('Wan2try_' + (object.name or '').replace(' ','_'))"
         paperformat="base.paperformat_euro" />
