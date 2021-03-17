@@ -4,7 +4,7 @@
         <template id="inv_report_wan2try">
             <t t-call="web.html_container">
                 <t t-foreach="docs" t-as="doc">
-                    <t t-call="report_custom.inv_report_wan2try_document" t-lang="doc.partner_id.lang"/>
+                    <t t-call="report_custom_wan2try.inv_report_wan2try_document" t-lang="doc.partner_id.lang"/>
                 </t>
             </t>
         </template>
@@ -26,7 +26,7 @@
                         </div>
                     </div>
                     
-                    <div class="row mt32">
+                    <div class="row mt32 mb16">
                         <div class="col-8">
                             <h4>
                                 <strong>Invoices <span t-field="doc.name"></span></strong>
@@ -64,7 +64,7 @@
                             </thead>
                             <tbody class="invoice_wan_tbody">
                                 <tr t-foreach="doc.invoice_line_ids" t-as="l">
-                                    <td class="text-left"></td>
+                                    <td class="text-left"><span t-field="l.product_id"></span></td>
                                     <td class="text-left"><span t-field="l.name" /></td>
                                     <td class="text-left"><span t-field="l.quantity" /></td>
                                     <td class="text-left"><span t-field="l.price_unit" /></td>
